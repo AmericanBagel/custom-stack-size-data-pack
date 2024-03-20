@@ -1,7 +1,7 @@
 github_url = "custom-stack-size-data-pack"
 
 [version]
-current = "0.1.0"
+current = "1.0.0"
 regex = '''
   (?P<major>\d+)
   \.

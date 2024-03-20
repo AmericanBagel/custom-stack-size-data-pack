@@ -2,7 +2,7 @@
     "name": "Custom stack size for EVERYTHING",
     "author": "AmericanBagel",
     "description": "Easily customize stack sizes for ALL items!",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "data_pack": {
         "load": ["datapack"]
     },

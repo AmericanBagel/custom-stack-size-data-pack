@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "minecraft-but-v2"
-version = "0.1.0"
+name = "ab.custom_stack_size"
+version = "1.0.0"
 description = "Every \"Minecraft, but\" scenario in one pack!"
 authors = ["AmericanBagel"]
 package-mode = false
