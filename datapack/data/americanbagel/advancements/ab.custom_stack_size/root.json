@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": [{"text":"Custom stack size for EVERYTHING "}, {"text": "0.1.0", "color": "gold"}],
+        "description": "Easily customize stack size for all items!",
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:americanbagel",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

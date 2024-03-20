@@ -1,0 +1,15 @@
+{
+    "extend": ["beet.json"],
+    "output": "releases",
+    "data_pack": {
+        "zipped": true
+    },
+    
+    "pipeline": [
+        "beet.contrib.minify_json",
+        "beet.contrib.minify_function"
+    ],
+    "meta": {
+        "debug": false
+    }
+}

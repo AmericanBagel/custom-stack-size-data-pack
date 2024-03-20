@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "minecraft-but-v2"
+version = "0.1.0"
+description = "Every \"Minecraft, but\" scenario in one pack!"
+authors = ["AmericanBagel"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beet = "^0.104.1"
+mecha = "^0.91.0"
+bolt = "^0.47.0"
+bolt-expressions = "^0.16.0"
+tbump = "^6.11.0"
+pre-commit = "^3.6.2"
+black = "^24.3.0"
+isort = "^5.13.2"
+invoke = "^2.2.0"
+allay = "^1.3.0"
+integrity = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 95
+
+[tool.isort]
+line_length = 95
