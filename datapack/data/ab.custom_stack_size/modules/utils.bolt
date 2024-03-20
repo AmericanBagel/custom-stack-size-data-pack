@@ -1,0 +1,25 @@
+from ./selector import selector
+self = selector("@s")
+
+import allay
+parser = allay.Parser()
+allayParse = parser.parse
+
+def setblock(block = "minecraft:stone", coords="~ ~ ~"):
+  setblock coords block
+
+def summon(entity="minecraft:marker", nbt={}, coords="~ ~ ~"):
+  summon entity coords nbt
+
+def tp(arg0=self, arg1="~ ~ ~"):
+  tp arg0 arg1
+  
+def chat(text, selector=self):
+  tellraw @s allay.Parser(json_dump = False).parse(text)
+
+class Objective:
+  def add(objective, criteria="dummy", displayName='""'):
+    scoreboard objectives add objective dummy
+  
+  def remove(objective):
+    scoreboard objectives remove objective
