@@ -1,5 +1,6 @@
 .vscode
 build
+releases
 dist
 .pyc
 __pycache__
