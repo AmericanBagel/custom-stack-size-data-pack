@@ -24,10 +24,10 @@ src = "beet.json"
 src = "beet-release.json"
 
 [[file]]
-src = "datapack/data/mcb.core/functions/load.mcfunction"
+src = "datapack/data/ab.custom-stack-size/functions/load.mcfunction"
 
 [[file]]
-src = "datapack/data/mcb.core/functions/install.mcfunction"
+src = "datapack/data/ab.custom-stack-size/functions/install.mcfunction"
 
 [[file]]
-src = "datapack/data/americanbagel/advancements/mcb.core/root.json"
+src = "datapack/data/americanbagel/advancements/ab.custom-stack-size/root.json"

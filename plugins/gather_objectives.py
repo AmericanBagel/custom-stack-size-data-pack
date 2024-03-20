@@ -20,4 +20,4 @@ def beet_default(ctx: Context):
     objective_collector = ObjectiveCollector()
     mc.check.extend(objective_collector)
     yield
-    ctx.data[f"mcb.core:test"] = Function([f"say {', '.join(sorted(objective_collector.objectives))}"])
+    ctx.data[f"ab.custom-stack-size:test"] = Function([f"say {', '.join(sorted(objective_collector.objectives))}"])
