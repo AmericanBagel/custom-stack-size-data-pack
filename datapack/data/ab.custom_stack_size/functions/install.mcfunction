@@ -6,7 +6,7 @@ from bolt_expressions import Scoreboard, Data
 root = ctx.meta.namespace
 
 # Set currently installe datapack version
-data modify storage minecraft:ab.custom_stack_size version set value "1.0.0"
+data modify storage minecraft:ab.custom_stack_size version set value "1.0.1"
 
 objectives = [
   "config",

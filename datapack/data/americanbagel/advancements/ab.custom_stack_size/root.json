@@ -1,6 +1,6 @@
 {
     "display": {
-        "title": [{"text":"Custom stack size for EVERYTHING "}, {"text": "1.0.0", "color": "gold"}],
+        "title": [{"text":"Custom stack size for EVERYTHING "}, {"text": "1.0.1", "color": "gold"}],
         "description": "Easily customize stack size for all items!",
         "icon": {
             "item": "minecraft:slime_ball"
