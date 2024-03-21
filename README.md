@@ -1,6 +1,6 @@
 ![Custom stack size data pack](assets/thumbnail.png)
 
-# Custom stack size data pack
+# ![Icon](assets/icon.png) Custom stack size data pack
 A data pack which allows you to set custom stack sizes globally. Want to hold 99 stone pickaxes so they won't ever break? Done. Want to set all the stack sizes to 1 to challenge yourself? Done!
 
 ## Installation
