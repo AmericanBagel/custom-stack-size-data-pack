@@ -17,3 +17,8 @@ Drop it into your world, `/reload` and enable it with `/datapack enable`, then r
 /function ab.custom_stack_size:menu
 ```
 Then just click the buttons to have a custom stack size!
+
+## Contribution
+If you have a suggestion, file an issue on GitHub or leave a comment on one of the platforms the pack is published on (listed above).
+
+If you want to contribute any changes, make a pull request on GitHub. To get developing, you should be familiar with data packs, Python, and the the [Beet](https://github.com/mcbeet) ecosystem, including Beet, Mecha, and Bolt.
